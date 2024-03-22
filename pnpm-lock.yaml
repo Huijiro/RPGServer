@@ -1,0 +1,32 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  '@tsconfig/node21':
+    specifier: ^21.0.1
+    version: 21.0.1
+  '@tsconfig/strictest':
+    specifier: ^2.0.3
+    version: 2.0.3
+  typescript:
+    specifier: ^5.4.3
+    version: 5.4.3
+
+packages:
+
+  /@tsconfig/node21@21.0.1:
+    resolution: {integrity: sha512-2Khg79N+z2Qkb9SjLzOi8cz2PSa/oUpHIeQm1YWzmWXkoFcPXFZSHgs+Z8iPCDjIoXFqMNYntiTXxfLYQMcRhw==}
+    dev: false
+
+  /@tsconfig/strictest@2.0.3:
+    resolution: {integrity: sha512-MroLvRhMbqtXI5WBSwoomro6OQS4xnCoudUrMb20JO0vLKUs0bAaCEcvM/immEBSJjFAK1l6jW1oAO8q3Ancrg==}
+    dev: false
+
+  /typescript@5.4.3:
+    resolution: {integrity: sha512-KrPd3PKaCLr78MalgiwJnA25Nm8HAmdwN3mYUYZgG/wizIo9EainNVQI9/yDavtVFRN2h3k8uf3GLHuhDMgEHg==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+    dev: false
