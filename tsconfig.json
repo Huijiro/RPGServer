@@ -1,11 +1,15 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "extends": [
-    "@tsconfig/node20/tsconfig.json",
+    "@tsconfig/node21/tsconfig.json",
     "@tsconfig/strictest/tsconfig.json"
   ],
   "compilerOptions": {
     "rootDir": "src" /* Specify the root folder within your source files. */,
-    "outDir": "dist" /* Specify an output folder for all emitted files. */
+    "outDir": "dist" /* Specify an output folder for all emitted files. */,
+    "lib": ["ES2023", "DOM"]
+  },
+  "ts-node": {
+    "esm": true
   }
 }
