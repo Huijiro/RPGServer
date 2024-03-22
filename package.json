@@ -8,7 +8,9 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
-    "dev": "tsc -w & nodemon dist/index.js"
+    "dev": "tsc -w & nodemon dist/index.js",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write ."
   },
   "keywords": [
     "net",
@@ -20,8 +22,18 @@
   "devDependencies": {
     "@tsconfig/node21": "^21.0.1",
     "@tsconfig/strictest": "^2.0.3",
+    "@types/eslint-config-prettier": "^6.11.3",
+    "@typescript-eslint/eslint-plugin": "^7.3.1",
+    "@typescript-eslint/parser": "^7.3.1",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
     "nodemon": "^3.1.0",
+    "prettier": "^3.2.5",
     "ts-node": "11.0.0-beta.1",
-    "typescript": "^5.4.3"
+    "typescript": "^5.4.3",
+    "typescript-eslint": "^7.3.1"
+  },
+  "dependencies": {
+    "@types/eslint__js": "^8.42.3"
   }
 }
